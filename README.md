@@ -1,12 +1,31 @@
-# React + Vite
+# 🐍 React Frontend UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Introdution
+---
+A cost-effective, flexible VM provisioning solution built on a bidding-based model, designed for private cloud scalability. Offers raw VM access with volumes, security, and SSH controls—perfect for enterprises, developers, and internal cloud teams.
+---
 
-Currently, two official plugins are available:
+# 🖥️ VM on Spot Platform - React UI
+---
+This is the front-end for the VM provisioning platform, built using React.js.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Setup Instructions
+---
+### 1. Prerequisites
+- Node.js (v16+)
+- npm (v8+) or yarn
 
-## Expanding the ESLint configuration
+### 2. 2. Clone Repo and install dependencies:
+```bash
+git clone <repo>
+cd vm-allocater-ui
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+npm install
+# or
+yarn install
+```
+
+### 3. Run Application
+```bash
+npm run dev
+```
